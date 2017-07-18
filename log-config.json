@@ -1,0 +1,7 @@
+{
+    "log-driver": "journald",
+    "log-level": "error",
+    "log-opts": {
+        "tag":"{{.ImageName}}/{{.Name}}/{{.ID}}"
+    }
+}
